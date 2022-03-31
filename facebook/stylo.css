@@ -1,0 +1,131 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=League+Spartan:wght@100&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> */
+
+body{
+    background-color: rgb(236, 239, 240);
+}
+
+.conteiner{
+    display: flex;
+    /* margin-top: 200px;
+    margin-left: 300px; */
+    justify-content: center;
+    margin-top: 150px;
+    /* justify-content: space-evenly; / opción para seperar el contenido  con flex (queda muy separado) */
+
+    
+}
+.box1{
+    width: 538px;
+    height: 300px;
+    top: 100px;
+    
+    /* border: 1px solid black; */  
+}
+
+.box2{
+    width: 410px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-left: 50px;
+    
+}
+
+.text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+
+}
+.boton{
+    padding-top: 20px;
+}
+
+
+#correo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 360px;
+    height: 50px;
+    border: 1px solid rgb(230, 225, 225);       
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 16px;
+    padding-left: 15px;
+    
+}                                                      /*Inputs ID*/
+
+#pass{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 360px;
+    height: 50px; 
+    border: 1px solid rgb(230, 225, 225);
+    margin-top: 15px;
+    margin-left: 16px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+#line{
+    margin-left: 12px; 
+    color: rgb(216, 217, 218);
+    margin-top: 60px;
+    
+
+}
+
+.entrar{
+    width: 380px; 
+    min-height: 50px;
+    background-color: rgb(18, 148, 223);
+    color: rgb(255, 245, 245);
+    border-radius: 5px;
+    margin-left: 15px; 
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+
+ }
+
+
+.cuenta{
+   width: 180px; 
+   min-height: 50px;
+   background-color: rgb(36, 158, 36);
+   color: rgb(255, 245, 245);
+   border-radius: 5px;
+   margin-left: 110px;  
+   margin-top: 20px;
+   font-size: 16px; 
+   border:none;
+   font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(56, 105, 238);
+    margin-left: 120px; 
+    top: 50px;
+    
+}
+
+.pag{
+    /* width: 160px; */
+    min-height: 50px;
+    flex-grow: 1;
+    margin-left: 720px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: brown; */
+
+}
+
+.crea{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

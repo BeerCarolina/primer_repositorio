@@ -1,0 +1,87 @@
+
+
+.menu{
+ display: flex;
+ justify-content: flex-end;
+ 
+}
+
+.esp1{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.esp2{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.esp3{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+
+
+#is{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(73, 112, 240);
+    border-radius: 3px;
+    margin-left: 10px; 
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.logo{
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 250px;   
+}
+
+#buscador{
+    width: 600px;
+    height: 40px;
+    padding-left: 200px;
+    background-color: rgba(245, 238, 228, 0.541);
+    border-radius: 30px;
+    border: 1px solid rgb(204, 199, 199);
+    margin-left: 450px;
+    position: relative;
+}
+
+.lupa {
+    /* position: absolute; */
+    top: 5px;
+    left: 8px;
+}
+
+.mic{
+    top: 5px;
+    left: 8px;  
+   
+}
+
+.buttom{
+ margin: 20px;
+ justify-content: center;
+ 
+}
+
+.buscar{
+  height: 30px;
+  margin-left: 620px; 
+  flex-basis: 50%;
+}
+
+.suerte{
+  height: 30px;  
+}
+
+.Esp{
+    top: 150px;
+    margin-left:600px;
+   
+}
