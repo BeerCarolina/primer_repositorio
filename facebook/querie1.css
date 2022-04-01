@@ -1,0 +1,48 @@
+
+@media (min-width:320px) and (max-width: 767px){
+
+.conteiner {
+    /* height: 496px;
+    margin: 0 40px;
+    width: auto; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box1{
+    width: 390px;
+    /* height: 300px;
+    top: 100px; */
+    margin-left: 10px;
+}
+
+.box1 h2{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.box2{
+    width: 380px;
+    margin-left: 5px;
+}
+
+#correo{
+    width: 320px;
+}
+
+#pass{
+    width: 320px;
+}
+
+.entrar{
+    width: 320px;
+    margin-left: 30px;
+}
+
+.cuenta{
+    width: 120px;
+}
+}
+

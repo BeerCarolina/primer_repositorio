@@ -1,5 +1,8 @@
 /* <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=League+Spartan:wght@100&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> */
 
+@import url(querie1.css);
+@import url(querie2.css);
+
 body{
     background-color: rgb(236, 239, 240);
 }
@@ -112,13 +115,19 @@ a{
     
 }
 
+.olv{
+    margin-top: 10px;
+}
+
+
+
 .pag{
     /* width: 160px; */
-    min-height: 50px;
-    flex-grow: 1;
-    margin-left: 720px;
-    margin-top: 20px;
+    /* min-height: 50px; */
+    /* margin-left: 20px; */
+    margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     /* background-color: brown; */
 
 }
