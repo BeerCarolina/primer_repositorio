@@ -1,4 +1,4 @@
-
+@import url(querie1.css);
 
 .menu{
  display: flex;
@@ -69,25 +69,35 @@
 .buttom{
  margin: 20px;
  justify-content: center;
+ margin-left: -20px;
  
 }
 
 .buscar{
-  height: 30px;
+  height: 40px;
   margin-left: 620px; 
   flex-basis: 50%;
+  background-color: #f0ecec;
+  border: #E4E4E4;
 }
 
 .suerte{
-  height: 30px;  
+  height: 40px; 
+  border: #E4E4E4; 
+  margin-left: 10px;
+  
 }
 
 .Esp{
     top: 150px;
-    margin-left:600px;
+    margin-left:590px;
    
 }
 
+
+.Esp a{
+    text-decoration: none;
+}
 
 #buscador{
     width: 480px;
